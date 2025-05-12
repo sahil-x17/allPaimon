@@ -1,0 +1,16 @@
+https://github.com/sahil-x17/flaskApp.git
+download this folder
+git init
+git add .
+git commit -m "Initial Flask app"
+git remote add origin https://github.com/YOUR-USERNAME/flask-app.git
+git branch -M main
+git push -u origin main
+
+now it's on github
+
+now check locally
+
+pip install flask
+python run.py
+visit -http://127.0.0.1:5000

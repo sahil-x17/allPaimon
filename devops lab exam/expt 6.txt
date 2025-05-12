@@ -1,0 +1,19 @@
+download the folder from https://github.com/sahil-x17/cicdJenkins
+
+git init
+git add .
+git commit -m "Initial Flask app"
+git remote add origin https://github.com/YOUR-USERNAME/flask-app.git
+git branch -M main
+git push -u origin main
+
+Go to Jenkins → New Item → Pipeline → Name: ci-cd-flask-pipeline
+Under "Pipeline", choose "Pipeline script from SCM":
+SCM: Git
+Repo URL: https://github.com/yourusername/ci-cd-flask-app.git
+Branch: */main
+Script Path: Jenkinsfile
+
+Save the Jenkins pipeline job.
+Click Build Now.
+Watch stages execute: Clone → Install → Test → (Optional) Deploy.

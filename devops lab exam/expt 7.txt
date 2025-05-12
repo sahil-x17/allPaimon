@@ -1,0 +1,20 @@
+download the folder from https://github.com/sahil-x17/-docker-content-app
+
+create your own github repo and push this local folder there
+
+
+docker build -t content-app .
+docker run -p 5000:5000 content-app
+
+Write Docker Commands for Demonstration
+# Build image
+docker build -t content-app .
+
+# Run container
+docker run -d -p 5000:5000 content-app
+
+# View running containers
+docker ps
+
+# Stop container
+docker stop <container-id>

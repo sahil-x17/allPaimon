@@ -1,0 +1,16 @@
+download the expt 1 dir
+start docker desktop
+check docker is running-> docker --version
+Build and Run Docker Container -> 
+docker build -t flask-registration-app .
+docker run -d -p 5000:5000 flaskapp
+Run the Flask App Container
+run : docker ps 
+copy container id
+run: docker logs <container_id>
+
+note : to stop running container 
+doceker ps
+copy container id
+docekr stop containerid
+

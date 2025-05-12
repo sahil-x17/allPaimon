@@ -1,0 +1,9 @@
+download from https://github.com/sahil-x17/actionsgithub.git
+git init
+git add .
+git remote add origin {github repo link}
+git commit -m "initial commit"
+git push -u origin main --force
+then commit changes and push to main
+
+note to restart whole git in folder: Remove-Item -Recurse -Force .git
